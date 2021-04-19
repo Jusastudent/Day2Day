@@ -1,0 +1,1086 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    background-color: rgba(0,51,51,1.00);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+    max-width: 1200px;
+    max-height: 900px;
+}
+.container {
+    max-width: 1200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    width: auto;
+    padding-bottom: 30px;
+}
+.container_home {
+    background-image: url(Imgs/bckgmaindiv.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.container_forgotaccount {
+    background-image: url(Imgs/Layer%203.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_addevent {
+    background-image: url(Imgs/bckgWatercolor.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_nopw_noacc {
+    background-size: cover;
+    background-position: center center;
+    background-image: url(Imgs/agendabckg.jpg);
+}
+.container_event {
+    background-size: cover;
+    background-position: center center;
+    background-image: -webkit-linear-gradient(84deg,rgba(51,204,204,1.00) 15.03%,rgba(0,0,0,1.00) 79.79%);
+    background-image: -moz-linear-gradient(84deg,rgba(51,204,204,1.00) 15.03%,rgba(0,0,0,1.00) 79.79%);
+    background-image: -o-linear-gradient(84deg,rgba(51,204,204,1.00) 15.03%,rgba(0,0,0,1.00) 79.79%);
+    background-image: linear-gradient(6deg,rgba(51,204,204,1.00) 15.03%,rgba(0,0,0,1.00) 79.79%);
+}
+
+
+.signin_text {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 415%;
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    width: 50%;
+}
+.sigin_txtbox {
+    color: #FFFFFF;
+    background-color: #CC9966;
+
+}
+.sign_inbox {
+    display: block;
+    width: 50%;
+    margin-left: 0px;
+    text-align: center;
+
+}
+.sign_inboxtxtsize {
+    font-size: 211%;
+    margin-top: 35px;
+    border-radius: 21px;
+    text-shadow: 0px 0px rgba(0,0,0,1.00);
+}
+.createaccounttxt {
+    text-shadow: 0px 0px #000000;
+    font-size: 168%;
+    color: #000000;
+    text-align: center;
+}
+.forgot_accountpgtxt {
+    font-size: 221%;
+    text-align: center;
+    width: 50%;
+    color: #FFFFFF;
+}
+
+.agenda_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: -47px;
+
+
+}
+.agenda_today {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+.agenda_tomor {
+    float: right;
+    clear: right;
+    margin-top: -761px;
+    width: 100%;
+    overflow: hidden;
+
+
+}
+.agenda_month {
+    float: right;
+    margin-top: -760px;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+.footer_centered {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+}
+
+.footer_add {
+    float: right;
+    clear: both;
+    width: 12%;
+    height: 0%;
+}
+.footer_back {
+    width: 12%;
+    height: 0%;
+}
+.month_container {
+    width: 100%;
+    height: 0px;
+    padding-bottom: 56.25%;
+    position: relative;
+
+
+}
+.schedule_breakfeast {
+    position: absolute;
+    width: 100%;
+    height: 16%;
+    padding-top: 67px;
+    margin-left: 15%;
+
+
+}
+.text_white {
+    color: hsla(0,0%,100%,1.00);
+}
+
+.lakers_tickets {
+    position: absolute;
+    width: 100.5%;
+    height: 18%;
+    margin-left: 14.5%;
+    margin-top: 146px;
+}
+
+.Day2Dayjog {
+    position: absolute;
+    padding-top: 3%;
+    width: 100%;
+    height: 10%;
+    margin-right: 22%;
+    margin-left: 15%;
+}
+.laker_event {
+    position: absolute;
+    padding-top: 0%;
+    width: 100%;
+    height: 48%;
+    margin-left: -34%;
+}
+
+.day2dayconference {
+    position: absolute;
+    width: 100%;
+    height: 23%;
+    padding-left: 0px;
+    margin-left: 15%;
+    padding-top: 335px;
+    margin-right: 22%;
+}
+.day2daybed {
+    position: absolute;
+    width: 100.5%;
+    height: 32%;
+    padding-left: 0px;
+    margin-left: 14.5%;
+    margin-right: 22%;
+    margin-top: 304px;
+}
+.event_container {
+    width: 55%;
+    height: 444px;
+    position: relative;
+    padding-left: 22%;
+    padding-right: 23%;
+    margin-left: -7.3%;
+}
+.day2day_dinner {
+    position: absolute;
+    width: 100.5%;
+    height: 15%;
+    margin-left: 14.5%;
+    margin-top: 54px;
+}
+.event_responsive {
+    position: absolute;
+    width: 100%;
+    height: 53%;
+    background-color: hsla(0,0%,0%,0.45);
+    border-radius: 21px;
+}
+.event_locaimg {
+    position: absolute;
+    width: 50%;
+    height: 41%;
+    border-radius: 21px;
+    padding-top: 0%;
+    margin-top: -63%;
+    margin-left: 50%;
+}
+
+.event_text {
+    color: hsla(0,0%,100%,1.00);
+    text-align: center;
+    width: 180%;
+    height: 3%;
+    clear: both;
+    padding-top: 0px;
+}
+.schedule_container .event_container div {
+}
+
+
+.lakertext {
+    text-shadow: 0px 0px;
+    color: hsla(0,0%,100%,1.00);
+    font-size: 292%;
+    text-align: left;
+    margin-left: -20%;
+}
+.location_place {
+    margin-top: 95%;
+    width: 90%;
+    background-image: none;
+    position: relative;
+
+
+
+
+
+
+}
+.location_addy {
+    color: hsla(0,0%,100%,1.00);
+    font-size: 143%;
+    padding-top: 53px;
+    width: 88%;
+}
+.event_directions {
+    color: hsla(211,93%,33%,1.00);
+}
+.time_heading {
+    font-size: 155%;
+}
+.time_location   {
+    margin-top: -5%;
+    width: 71%;
+    font-size: 130%;
+
+
+}
+.notes_location {
+    margin-top: 0%;
+    position: absolute;
+}
+.text_location {
+    margin-top: 25%;
+    font-size: 130%;
+
+}
+.time_text {
+    width: 78%;
+    font-size: 128%;
+    margin-top: 0%;
+}
+.containe_creataccount {
+    background-image: url(Imgs/xlbackgrundpw.jpg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+/* CSS Document */
+body {
+    background-color: rgba(0,51,51,1.00);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.month_responsive {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.container_home {
+    background-image: url(Imgs/bckgmaindiv.jpg);
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    max-height: 900px;
+    padding-left: 0px;
+}
+.container_forgotaccount {
+    background-image: url(Imgs/bckgWatercolor.png);
+    background-position: center 0%;
+    background-repeat: no-repeat;
+}
+.time_pmam {
+    position: absolute;
+    font-size: 140%;
+    margin-top: 72%;
+}
+
+.signin_text {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 415%;
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    width: 50%;
+}
+.sigin_txtbox {
+    text-shadow: 0px 0px;
+    color: #FFFFFF;
+    background-color: #CC9966;
+
+}
+.sign_inbox {
+    display: block;
+    width: 50%;
+    margin-left: 0px;
+    text-align: center;
+
+}
+.sign_inboxtxtsize {
+    font-size: 179%;
+    margin-top: 65px;
+    border-radius: 21px;
+    text-shadow: 0px 0px rgba(0,0,0,1.00);
+}
+.footie {
+    width: 50%;
+    padding-top: 0%;
+}
+.forgottxtlink {
+    color: #95DFFF;
+    font-size: 97%;
+    text-decoration: none;
+}
+.stayloggedn {
+    color: #FFFFFF;
+    font-size: 55%;
+    text-align: center;
+}
+.checkbox {
+    clear: right;
+    padding-top: 0px;
+
+
+}
+.container_nopw_noacc {
+    background-image: url(Imgs/agendabckg.jpg);
+}
+.agenda_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 460px;
+    margin-top: -47px;
+
+
+}
+.agenda_today {
+    clear: both;
+    height: 557px;
+    width: 531px;
+
+
+}
+.agenda_tomor {
+    float: right;
+    clear: right;
+    width: 532px;
+    height: 390px;
+    padding-left: 0px;
+    margin-top: -560px;
+    margin-right: -72px;
+
+}
+.agenda_month {
+    float: right;
+    margin-top: -558px;
+    width: 166px;
+    height: 552px;
+    margin-right: -71px;
+
+}
+.footer_add {
+    float: right;
+    clear: both;
+}
+.container_forgotaccount {
+    background-image: url(Imgs/Layer%203.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.location_text {
+    color: hsla(0,0%,100%,1.00);
+    margin-top: 0%;
+}
+.location_addy {
+    color: hsla(0,0%,100%,1.00);
+    font-size: 110%;
+    padding-top: 30%;
+    width: 84%;
+}
+.event_locaimg {
+    position: absolute;
+    width: 50%;
+    height: 41%;
+    border-radius: 21px;
+    padding-top: 0%;
+    margin-top: -76%;
+}
+.event_linklocal {
+    clear: both;
+    margin-top: 75%;
+
+
+}
+.notes_location {
+    position: absolute;
+    margin-top: -3%;
+
+}
+.notes_description {
+    position: absolute;
+    margin-top: 274%;
+
+}
+.notes_txt {
+}
+.time_location {
+    margin-top: 5%;
+    width: 70%;
+    font-size: 130%;
+
+
+}
+.time_text {
+    width: 78%;
+    font-size: 100%;
+    margin-top: 0%;
+}
+.text_location {
+    margin-top: 10%;
+    font-size: 117%;
+    position: absolute;
+
+}
+.location_place {
+    margin-top: 129%;
+    width: 90%;
+    background-image: none;
+    padding-bottom: 0%;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+/* CSS Document */
+body {
+    background-color: rgba(0,51,51,1.00);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.container {
+    max-width: 1200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.container_home {
+    background-image: url(Imgs/bckgmaindiv.jpg);
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    max-height: 900px;
+    padding-left: 0px;
+}
+.container_forgotaccount {
+    background-image: url(Imgs/Layer%203.png);
+    background-position: center 0%;
+    background-repeat: no-repeat;
+}
+.signin_text {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 352%;
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    width: 50%;
+}
+.sigin_txtbox {
+    text-shadow: 0px 0px;
+    background-color: #CC9966;
+    color: #FFFFFF;
+
+}
+.sign_inbox {
+    display: block;
+    width: 50%;
+    margin-left: 0px;
+
+}
+.sign_inboxtxtsize {
+    margin-top: 60px;
+    border-radius: 25px;
+    text-shadow: 0px 0px rgba(0,0,0,1.00);
+    max-width: 83%;
+    font-size: 130%;
+}
+.createaccounttxt {
+    text-shadow: 0px 0px;
+    font-size: 135%;
+    color: #000000;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -4px;
+}
+.forgot_accountpgtxt {
+    font-size: 172%;
+    text-align: center;
+    width: 50%;
+    color: #FFFFFF;
+}
+.container_nopw_noacc {
+    background-image: url(Imgs/agendabckg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.agenda_container {
+    width: 360px;
+    margin-top: -47px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.agenda_today {
+    clear: both;
+    height: 357px;
+    width: 378px;
+    margin-top: 62px;
+
+
+}
+.agenda_tomor {
+    float: right;
+    clear: right;
+    width: 381px;
+    height: 255px;
+    padding-left: 0px;
+    margin-top: -363px;
+    margin-right: -19px;
+
+
+}
+.agenda_month {
+    float: right;
+    margin-top: -363px;
+    width: 119px;
+    height: 360px;
+    margin-right: -20px;
+
+}
+.forgottxtlink {
+    color: #95DFFF;
+    font-size: 17%;
+    text-decoration: none;
+}
+.container_forgotaccount {
+    background-image: url(Imgs/Layer%203.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.location_text {
+    color: hsla(0,0%,100%,1.00);
+    position: absolute;
+    font-size: 115%;
+    margin-top: 32%;
+}
+.location_addy {
+    color: hsla(0,0%,100%,1.00);
+    font-size: 100%;
+    width: 106%;
+    position: absolute;
+    margin-top: 18%;
+}
+.event_locaimg {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    border-radius: 21px;
+    margin-top: -122%;
+    margin-left: 50%;
+}
+.time_location {
+    margin-top: 303%;
+    width: 71%;
+    font-size: 115%;
+
+
+}
+.time_text {
+    width: 120%;
+    font-size: 100%;
+    margin-top: -8%;
+}
+.notes_location {
+    position: absolute;
+    margin-top: -2%;
+
+}
+.text_location {
+    margin-top: 15%;
+    font-size: 100%;
+    position: absolute;
+
+}
+.event_linklocal {
+    clear: both;
+    position: absolute;
+    font-size: 75%;
+
+
+}
+.location_place {
+    margin-top: 183%;
+    width: 90%;
+    background-image: none;
+    padding-bottom: 0%;
+
+
+
+
+
+
+}
+.event_directions {
+    color: hsla(211,93%,33%,1.00);
+    padding-top: 122%;
+    font-size: 94%;
+}
+.footer_centered {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (max-width: 480px){
+/* CSS Document */
+body {
+    background-color: rgba(0,51,51,1.00);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+}
+.container {
+    max-width: 1200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+    max-height: 900px;
+    padding-bottom: 30px;
+}
+.container_forgotaccount {
+    background-image: url(Imgs/Background_month.png);
+    background-position: center 0%;
+    background-repeat: no-repeat;
+}
+.signin_text {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 272%;
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    width: 100%;
+}
+.sigin_txtbox {
+    background-color: #CC9966;
+    color: #FFFFFF;
+
+
+
+}
+.sign_inbox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sign_inboxtxtsize {
+    font-size: 14px;
+    margin-top: 30px;
+    border-radius: 15;
+    text-shadow: 0px 0px rgba(0,0,0,1.00);
+}
+.footie {
+    margin-left: auto;
+    margin-right: auto;
+}
+.createaccounttxt {
+    text-shadow: 0px 0 #FFFFFF;
+    font-size: 128%;
+    color: #FFFFFF;
+}
+.forgottxtlink {
+    color: #95DFFF;
+    font-size: 147%;
+    padding-top: 0px;
+    text-align: center;
+}
+.stayloggedn {
+    color: #FFFFFF;
+    font-size: 166%;
+    text-align: center;
+}
+.checkbox {
+
+
+
+
+
+
+}
+.forgot_accountpgtxt {
+    font-size: 172%;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+}
+.container_home {
+    background-image: url(Imgs/mobilehome.jpg);
+    background-repeat: no-repeat;
+}
+.container_nopwacc {
+    background-image: url(Imgs/Backgroundmobi_nopw_noacc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.agenda_container {
+    width: 260px;
+    margin-top: -47px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.agenda_today {
+    clear: both;
+    height: 257px;
+    width: 278px;
+    margin-top: 62px;
+
+
+}
+.agenda_tomor {
+    float: right;
+    clear: right;
+    width: 281px;
+    height: 187px;
+    padding-left: 0px;
+    margin-top: -260px;
+    margin-right: -19px;
+
+
+}
+.agenda_month {
+    float: right;
+    margin-top: -264px;
+    width: 90px;
+    height: 260px;
+    margin-right: -20px;
+
+}
+.event_locaimg {
+    position: absolute;
+    width: 50%;
+    height: 30%;
+    border-radius: 21px;
+    margin-top: -122%;
+    margin-left: 50%;
+    visibility: hidden;
+}
+.location_place {
+    margin-top: 201%;
+    width: 186%;
+    background-image: none;
+    padding-bottom: 0%;
+
+
+
+
+
+
+}
+.footer_centered {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 66%;
+}
+.location_addy {
+    color: hsla(0,0%,100%,1.00);
+    font-size: 80%;
+    width: 106%;
+    position: absolute;
+    margin-top: 18%;
+}
+.event_directions {
+    color: hsla(211,93%,33%,1.00);
+    padding-top: 81%;
+    font-size: 94%;
+}
+.text_white {
+    color: hsla(0,0%,100%,1.00);
+    font-size: 78%;
+}
+.containe_creataccount {
+    background-image: url(Imgs/Background_month.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container_addevent {
+    background-image: url(Imgs/Background_month.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.footie {
+    margin-top: 30px;
+    width: 50%;
+}
+.forgottxtlink {
+    color: #95DFFF;
+    font-size: 147%;
+    padding-top: 0px;
+    text-align: center;
+}
+
+.stayloggedn {
+    color: #FFFFFF;
+    font-size: 166%;
+    text-align: center;
+}
+
+
+.checkbox {
+    margin-top: 9%;
+
+
+
+
+
+
+
+
+
+
+}
+.container_nopw_noacc {
+}
+.month_responsive {
+    position: absolute;
+    width: 100%;
+    height: 0100%;
+}
+.schedule_container {
+    width: 53%;
+    position: relative;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.schedule_responsive {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.event_holder {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.location {
+    margin-top: 85%;
+    text-shadow: 0px 0px hsla(0,0%,100%,1.00);
+    color: hsla(0,0%,100%,1.00);
+    margin-left: -55%;
+
+
+}
+.location_text {
+    color: hsla(0,0%,100%,1.00);
+    position: absolute;
+}
